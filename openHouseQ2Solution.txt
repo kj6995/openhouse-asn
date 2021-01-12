@@ -1,0 +1,2 @@
+Fixed the issue in the second question by including the click event inside the function. So the error was it couldn't get the reference to the btnNum variable when the the event is called, we can solve this issue by putting the event listener into a function so that it forms a closure and the reference to the variable is also passed along with its closure.
+
